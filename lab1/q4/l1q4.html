@@ -6,6 +6,10 @@
 </head>
 
 <body>
+    <!--
+        to custom build a nav bar, make a list and style it using css
+        this is a horizontal nav bar with an "active" class to indicate the highlighted section
+    -->
     <nav>
         <ul>
             <li><a href="profile.html">Profile</a></li>
@@ -14,12 +18,14 @@
             <li><a href="catalog.html">Catalog</a></li>
             <li><a href="registration.html">Registration</a></li>
             <li><a href="l1q4.html" class="active">Home</a></li>
-          </ul> 
+        </ul>
     </nav>
     <br> <br>
     <h2>Home Page</h2>
-    
 
+    <!--
+        lorem ipsum text has been added
+    -->
     <p>
         Corporis inventore voluptatibus est ipsam deleniti repellendus. Voluptatum enim dolorem officia rerum tenetur.
         Maiores explicabo sapiente voluptas et aut vel delectus dolorem. Molestias tempore impedit odit. Rerum
@@ -63,40 +69,44 @@
     body {
         font-family: 'Roboto', sans-serif;
     }
-    h2{
+
+    h2 {
         text-align: center;
     }
+
     li {
-  display: inline;
-  float: right;
-  padding-right: 10px;
-}
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  background-color: #444444;
-  position: fixed;
-  top: 0;
-  width: 100%;
-  
-  
-}
-li a {
-  display: block;
-  background-color: #444444;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
+        display: inline;
+        float: right;
+        padding-right: 10px;
+    }
 
-li a:hover {
-  background-color: blueviolet;
-}
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        background-color: #444444;
+        position: fixed;
+        top: 0;
+        width: 100%;
 
-.active{
-    background-color: blueviolet;
-}
+
+    }
+
+    li a {
+        display: block;
+        background-color: #444444;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+
+    li a:hover {
+        background-color: blueviolet;
+    }
+
+    .active {
+        background-color: blueviolet;
+    }
 </style>
 
 </html>
