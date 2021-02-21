@@ -1,0 +1,96 @@
+<html>
+
+<head>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li><a href="profile.html">Profile</a></li>
+            <li><a href="cart.html">Cart</a></li>
+            <li><a href="order.html">Order Status</a></li>
+            <li><a href="catalog.html">Catalog</a></li>
+            <li><a href="registration.html" class="active">Registration</a></li>
+            <li><a href="l1q4.html">Home</a></li>
+        </ul>
+    </nav>
+    <br> <br>
+    <h2>Registration</h2>
+
+    <form>
+        <label>
+            e--Mail ID:
+            <input id="email" name="email" type="email" />
+        </label> <br> <br>
+        <label>
+            Password:
+            <input id="password" name="password" type="password" />
+        </label> <br> <br>
+        <input type="submit" value="Sign Up">
+        <input type="submit" value="Login">
+    </form>
+</body>
+<style>
+    
+    a:visited,
+    a:link {
+        color: white;
+    }
+
+    body {
+        font-family: 'Roboto', sans-serif;
+    }
+
+    h2 {
+        text-align: center;
+    }
+
+    li {
+        display: inline;
+        float: right;
+        padding-right: 10px;
+    }
+
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        background-color: #444444;
+        position: fixed;
+        top: 0;
+        width: 100%;
+
+
+    }
+
+    li a {
+        display: block;
+        background-color: #444444;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+
+    li a:hover {
+        background-color: blueviolet;
+    }
+
+    .active {
+        background-color: blueviolet;
+    }
+
+    form {
+
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    label {
+        display: inline;
+        margin-bottom: 15px;
+    }
+</style>
+
+</html>
