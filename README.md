@@ -5,7 +5,7 @@
 
 ## A repository containing the solutions to all problems in the ITT Lab Manual (6th Semester, ICT, MIT, Manipal)
 
-### This repository is live 👉 [here](https://itt-lab.glitch.me) 👈
+### This repository is live 👉 [here](https://itt-lab.glitch.me) 👈 and 👉 [here](https://nandiniproothi.github.io/itt-lab/) 👈 
 
 #### For HTML codes, follow these steps:
 
