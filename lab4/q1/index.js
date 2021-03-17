@@ -1,7 +1,6 @@
-var num = prompt("enter n1");
+var num = prompt("enter n1"); //take input from a prompt dialog box
 
 if (num != null) {
-
   document.getElementById("answer").innerHTML =
   fib(num).join(', ');
 }
@@ -21,8 +20,8 @@ var n = prompt("enter n2");
 var square = [];
 if (n != null) {
     for(var j=1;j<=n;j++){
-        square.push(j*j);
+        square.push(j*j); //push in the array
     }
 }
 
-alert(JSON.stringify(square));
+alert(JSON.stringify(square)); //print the array without commas. can also be done using the join() function

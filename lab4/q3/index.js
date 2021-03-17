@@ -3,7 +3,7 @@ function moveUp(x){
     document.getElementById(`p1`).innerHTML = document.getElementById(`p${x}`).innerHTML;
     document.getElementById(`p${x}`).innerHTML = temp;
 }
-
+//this isn't the right way to do it, feel free to modify it tbh ;-;
 function rearrange(){
     document.getElementById('p1').innerHTML = `
     Ut consequuntur totam et iusto deserunt quia. In aspernatur error atque recusandae repudiandae velit nobis ipsa.
