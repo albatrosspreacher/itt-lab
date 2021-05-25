@@ -25,3 +25,5 @@
    `example: cd /Users/yourusername/Documents/Github/itt-lab/lab5/q1`
 3. Run the following command
    `python3 l5q1a.py`
+
+> For lab7, make sure you install [sqlite3](https://www.sqlite.org/download.html)
